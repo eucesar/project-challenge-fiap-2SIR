@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Natra Organizer</title>
+    
+        <!-- link na aba - img na abazinha do lado dotitle-->
+        <link rel="shortcut icon" href="./assets/imgs/logo-pequeno-natra.png" type="image/x-icon" />
+    
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
+    
+        <!-- BS Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    
+        <!-- chamada CSS BS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"/>
+    
+        <!-- Minha CSS -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/formulario2.css" />
+        <link rel="stylesheet" href="./assets/css/tabela2.css" />
+
+
+      </head>
+      
+<body>
+
+  <header class="container-fluid margin-menu">
+
+    <nav class="d-flex justify-content-center mb-0 mt-2" >
+      <img src="./assets/imgs/logo-pequeno-natra.png" alt="imagem do logo" id="logo-img">
+    </nav>
+
+    <nav class="navbar navbar-expand-lg container border-bottom mb-4">
+      <div class="container align-items-center justify-content-center">
+        
+        <button class="navbar-toggler fs-6 text-white bt1" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      
+
+        <div class="collapse navbar-collapse " id="navbarNav">
+          
+          <ul class="navbar-nav mx-auto">
+ 
+            <li class="nav-item">
+              <a class="nav-link mx-3 text-light icone" href="./cliente.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 text-light icone" href="./pedidos.html">Pedidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 text-light icone" href="./vendas.html">Vendas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 text-light icone" href="./copywrites.html">Copywriters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3 text-light icone" href="./notacoes.html">Notações</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+    <main>
+      <div class="d-flex justify-content-center text-light fs-1 ">PEDIDOS</div>
+
+      <div class="form-container mt-4">
+        <h1>ADICIONAR NOVO PEDIDO</h1>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="nomeCliente" placeholder="Nome do Cliente">
+          </div>
+          <div class="mb-3">
+            <input type="date" class="form-control" id="data" placeholder="Data">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+          </div>
+    
+          <!-- Bloco de Endereço -->
+          <div class="address-container">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="cep" placeholder="CEP">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="numero" placeholder="Número">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="complemento" placeholder="Complemento">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+            </div>
+          </div>
+    
+          <div class="mb-3">
+            <input type="number" class="form-control" id="quantidade" placeholder="Quantidade">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="produto" placeholder="Produto">
+          </div>
+          <div class="mb-3">
+            <input type="number" class="form-control" id="valorUnitario" placeholder="Valor Unitário R$">
+          </div>
+          <div class="mb-3">
+            <input type="number" class="form-control" id="total" placeholder="Total R$">
+          </div>
+    
+          <button type="submit" class="btn btn-custom">ADICIONAR</button>
+        </form>
+      </div>
+
+      <div class="form-container mt-4">
+        <h1>MODIFICAR PEDIDO</h1>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="nomeCliente" placeholder="Nome do Cliente">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+          </div>
+    
+          <!-- Bloco de Endereço -->
+          <div class="address-container">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="cep" placeholder="CEP">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="numero" placeholder="Número">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="complemento" placeholder="Complemento">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+            </div>
+          </div>
+    
+          <div class="mb-3">
+            <input type="number" class="form-control" id="quantidade" placeholder="Quantidade">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="produto" placeholder="Produto">
+          </div>
+          <div class="mb-3">
+            <input type="number" class="form-control" id="valorUnitario" placeholder="Valor Unitário R$">
+          </div>
+          <div class="mb-3">
+            <input type="number" class="form-control" id="total" placeholder="Total R$">
+          </div>
+    
+          <button type="submit" class="btn btn-custom">MODIFICAR</button>
+        </form>
+      </div>
+
+      <div class="form-container mt-4">
+        <h1>PESQUISA DE PEDIDOS</h1>
+        <h2>QUAL PEDIDO VOCÊ DESEJA PROCURAR?</h2>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="nomeCliente" placeholder="Nome do Cliente">
+          </div>
+          <p class="or-text">OU</p>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+          </div>
+          <p class="or-text">OU</p>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="cep" placeholder="CEP">
+          </div>
+    
+          <button type="submit" class="btn btn-custom">PESQUISAR</button>
+        </form>
+      </div>
+
+      <div class="table-container mt-4">
+        <h1>RESULTADO DE PESQUISA</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Número do Pedido</th>
+              <th>Nome do Cliente</th>
+              <th>Telefone</th>
+              <th>CEP</th>
+              <th>Endereço</th>
+              <th>Número</th>
+              <th>Complemento</th>
+              <th>Bairro</th>
+              <th>Quantidade</th>
+              <th>Descrição</th>
+              <th>Valor Unitário</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>123</td>
+              <td>Nome Exemplo</td>
+              <td>(11) 98765-4321</td>
+              <td>12345-678</td>
+              <td>Rua Exemplo</td>
+              <td>123</td>
+              <td>Apto 101</td>
+              <td>Centro</td>
+              <td>10</td>
+              <td>Produto Exemplo</td>
+              <td>R$ 50,00</td>
+              <td>R$ 500,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="form-container mt-4 mb-4">
+        <h1>EXCLUSÃO DO CLIENTE</h1>
+        <h2>QUAL CLIENTE VOCÊ DESEJA EXCLUIR?</h2>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="nomeCliente" placeholder="Nome do Cliente">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="cep" placeholder="CEP">
+          </div>
+    
+          <button type="submit" class="btn btn-custom">EXCLUIR</button>
+        </form>
+      </div>
+    </main>
+
+  <!--script - JS-->
+  <script src="./assets/js/cliente.js"></script>
+  <script src="./assets/js/copywrites.js"></script>
+  <script src="./assets/js/notacoes.js"></script>
+  <script src="./assets/js/pedidos.js"></script>
+  <script src="./assets/js/vendas.js"></script>
+
+
+    <!-- Chamada JS - BT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* SECTION 1 */
+/* Custom styles for the navbar-toggler */
+.navbar-toggler {
+    border-color: white; /* Changes border of the button to white */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    /* This changes the default icon of the toggler to white */
+  }
+  
+  .logo-sifrao{
+    width: 50%;
+}
+
+
+/* tablet  */
+@media (max-width: 992px) {
+
+   .hh{
+    font-size: 25px!important;
+   }
+
+   .pp{
+    font-size: 13px!important;
+
+   }
+
+}
+
+
+/* celular  */
+@media (max-width: 768px) {
+ 
+    .ss{
+        margin: 0!important;
+    }
+
+    .img-c{
+        margin-top: 45px!important;
+    }
+
+}
+
+/* SECTION 1 */
+
+
+/* <SECTION 2°> */
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-content {
+    display: inline-block;
+    animation: marqueeAnimation 3s linear infinite; /* Ajuste a duração conforme necessário */
+}
+
+@keyframes marqueeAnimation {
+    from {
+        transform: translateX(-10%);
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
+
+.bg-verdee{
+    background-color: var(--laranja-claro);
+}
+
+
+/* </SECTION> */
+
+.ppp{
+    width: 30rem;
+}
+
+/* celular  */
+
+.ppp{
+    width: 30rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .ppp{
+        width: 15rem !important;
+    }
+
+}
+
+.H1{
+    font-size: 100px !important;
+}
+
+/* section */
